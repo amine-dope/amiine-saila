@@ -28,7 +28,7 @@
     color: black;
         text-decoration: none;
         
-        border-bottom: 3px solid transparent ;
+       
     }
 
     a:hover{
@@ -104,7 +104,8 @@ margin-top: 10px;
 .txt{
     margin-top: 8px;
     width: 40%;
-    min-width: 300px;
+    min-width: 401px;
+    
 
 }
 
@@ -152,3 +153,62 @@ margin-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+@media screen and (max-width: 529px) {
+  
+    .container {
+       
+        flex-direction: column;
+        align-items: center;
+    }
+    .container ul {
+        font-size: 80%;
+    }
+    .logo-container {
+        margin : 16px 0;
+        min-height: 60px;
+    }
+   
+    .container ul li {
+       
+        padding: 0 6px;
+    }
+    .logo {
+        font-size: 4vw;
+       
+    }
+    .navbar {
+        width: 95%;
+        margin-top: 7px;
+    }
+  
+    .Top-Bar {
+        
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    .txt {
+        
+        min-width: 345px;
+    }
+    .Titles{
+        border: 1px solid;
+        padding: 2px;
+        border-bottom: 4px solid;
+        margin-bottom: 16px;
+    }
+    .Titles:hover{
+        background-color: black;
+        color: white;
+    }
+  
+    .cards
+    {       
+        justify-content: space-around;
+    }
+    .card {
+      
+        min-width: 280px;
+    }
+   
+  } 
