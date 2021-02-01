@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background:darkgray; 
+    
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    top: 40px;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    
+    background-color: wheat;
+}
+
+
+.lab1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color:gray;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: black solid 4px;
+    cursor: pointer;
+    
+}
+.lab2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #42403e;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: black solid 4px;
+    cursor: pointer;
+}
+#pricemin {
+    border-radius: 1px;
+    padding: 6px;
+   display: inline;
+    border: solid 1px black;
+    margin-top: 15px;
+    background-color: #FBEDEB;
+}
+
+#pricemax {
+    border-radius: 1px;
+    padding: 6px;
+   display: inline;
+    border: solid 1px black;
+    margin-top: 15px;
+    background-color: #FBEDEB;
+}
+
+
+
+
+.Search {
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+    background-color: #42403e;
+    cursor: pointer;
+}
