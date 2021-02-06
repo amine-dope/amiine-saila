@@ -11,7 +11,7 @@ box-sizing: border-box;
    display: flex;
    justify-content: flex-start;
     
-    width: 100%;
+    width: 96vw;
 
  
  
@@ -20,6 +20,7 @@ box-sizing: border-box;
  display: flex;
   align-items: baseline;
  font-family: "Poppins";
+ 
  
  
   
@@ -49,10 +50,14 @@ cursor: pointer;
     font-size: 14px;
 }
 
-.container a{
+.container__lst{
     text-decoration: none;
     color: black;
 
+}
+.container__up {
+    color: white;
+    text-decoration: none;
 }
 .container__button{
     margin:0 auto;
