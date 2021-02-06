@@ -1,61 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Atelier accéssibilité: formulaire</title>
-        <style>
-            html {
-                box-sizing: border-box;
-            }
-            
-            *, *:before, *:after {
-                box-sizing: inherit;
-            }
+    <html>
 
-            body {
-                padding: 0;
-                margin: 0;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-                line-height: 1.7778;
-            }
-        </style>
-    </head> 
-    <body>
-        <main class="container">
-            <h1>Product Store</h1>
-            <section class="product">
-                <h2>Product</h2>
-                <img src="images/product.png" class="product-image" alt="product"> 
-                <form class="product-feedback">
-                    <h2>Feedback form</h2>
-                    <fieldset>
-                        <legend>Your details:</legend>
-                        <label>First name:</label>
-                        <input id="first-name" type="text" placeholder="First name" >
-                        <br />
-                        <label>Last name:</label>
-                        <input id="last-name" type="text" placeholder="Last name"  >
-                        <br />
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" placeholder="E-mail" >
-                    </fieldset>
-                    <fieldset>
-                        <p>Rating the product:</p>
-                        <input type="radio" name="rating" value="1" id="rate-1">
-                        <label for="rate-1">1</label>
-                        <input type="radio" name="rating" value="2" id="rate-2">
-                        <label for="rate-2">2</label>
-                        <input type="radio" name="rating" value="3" id="rate-3">
-                        <label for="rate-3">3</label>
-                        <input type="radio" name="rating" value="4" id="rate-4">
-                        <label for="rate-4">4</label>
-                        <input type="radio" name="rating" value="5" id="rate-5">
-                        <label for="rate-5">5</label>
-                    </fieldset>
-                    <button class="feedback-button">Submit</button>
-                </form>
-            </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'acceuil du magasin de video</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <header class=container>
+          <img src="logo.png" alt="LOGO">
+          <ul class=nav>
+              <li> <a>Videos to rent</a> </li>
+              <li> <a>Videos to buy</a> </li>
+              <li> <a>Used DVDs</a> </li>
+              <li> <a>Offers </a> </li>
+          </ul>
+        </header>
+        <div class=nav2>
+            <ul>
+                <li> <a class="link first" href="#">Home</a> </li>
+                <li>/</li>
+                <li> <a class="link" href="#">Used DVD's</a> </li>
+                <li>/</li>
+                <li> <a class="link" href="#">Less than 10£</a> </li>
+              </ul>
+        </div>
+
+        <div class="txt">
+            <h1 class=titre>Video less than 10£</h1>
+                <p class="int">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium
+                  utsimilique amet dolorum minus? Atque perspiciatis earum eligendi
+                  consectetur aperiam.
+               </p>
+        </div>
+        
+        <main class="content">
+        <div class=card>
+            
+            <img class=img-1 src="img1.PNG">
+            <h1 class="titre1">Video title 1</h1>
+             <p class="parag1">RRP<strong>:£18.99</strong></p>
+             <p class="parag2">Price you pay <span> £9.99 </span></p>
+             <p class=SP>Your saving £9</p>
+        </div>
+       
+        <div class=card>
+            
+            <img class=img-1 src="img1.PNG">
+            <h1 class="titre1">Video title 1</h1>
+             <p class="parag1">RRP<strong>:£18.99</strong></p>
+             <p class="parag2">Price you pay <span> £9.99 </span></p>
+             <p class=SP>Your saving £9</p>
+        </div>
+       
+        <div class=card>
+            
+            <img class=img-1 src="img1.PNG">
+            <h1 class="titre1">Video title 1</h1>
+             <p class="parag1">RRP<strong>:£18.99</strong></p>
+             <p class="parag2">Price you pay <span> £9.99 </span></p>
+             <p class=SP>Your saving £9</p>
+        </div>
+       
+        <div class=card>
+            
+            <img class=img-1 src="img1.PNG">
+            <h1 class="titre1">Video title 1</h1>
+             <p class="parag1">RRP<strong>:£18.99</strong></p>
+             <p class="parag2">Price you pay <span> £9.99 </span></p>
+             <p class=SP>Your saving £9</p>
+        </div>
+       
         </main>
-    </body>
-</html>
+  </body>
+  </html>
