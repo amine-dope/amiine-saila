@@ -526,3 +526,140 @@ width: 59%;
     font-family: "Poppins";
   
 }
+
+@media only screen and (max-width: 700px){
+.container{
+  width: 100%;  
+}
+    
+.container__navbar{
+
+    flex-direction: column;
+    flex-flow: wrap;
+    /* align-items: baseline; */
+    /* display: inline; */
+    text-align: center;
+}
+
+.container__invi{
+
+    width: 100%;
+    /* height: 27%; */
+    font-size: 2em;
+}
+
+.container__invi h1{
+
+
+    width: 100%;
+    /* height: 27%; */
+    font-size: 2em;
+}
+
+.container ul{
+
+    width: 100%;
+    margin-right: 0em;
+}
+
+.container__button{
+
+    display: flex;
+    margin-right: 2em;
+    margin-left: 6em;
+    margin-top: 2em;
+
+}
+
+.section{
+
+    margin-top: 2em;
+}
+
+.section__txt-area{
+
+    width: 100%;
+    padding-left: 0em;
+    padding-top: 0em;
+}
+
+.section h1{
+
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    width: 96vw;
+    margin-top: 3em;
+    /* margin-right: 23em; */
+    margin-bottom: 4em;
+
+
+}
+.section__txt-1{
+
+    width: 97vw;
+    font-size: 16px;
+    /* margin-bottom: 4em; */
+    display: flex;
+    margin-left: .5em;
+}
+
+.section__box{
+
+    flex-direction: column;
+    width: 100%
+
+}
+
+.section__searching{
+
+    margin-top: 3em;
+    /* display: flex; */
+    margin-bottom: 3em;
+    width: 89%;
+
+}
+
+.section__btn{
+
+    width: 50%;
+
+
+}
+
+
+.section__hero-img{
+
+    display: none;
+}
+
+
+
+.section-2{
+
+
+        /* display: flex; */
+    /* height: 79vh; */
+    width: -35vw;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: none;
+}
+
+.content-3__photos{
+
+
+    display: none;
+}
+.content-3__get{
+
+
+
+    height: 0%;
+}
+
+.content-3 h1{
+
+
+    width: 11em;
+}
