@@ -446,3 +446,78 @@ h5::before {
 
 }
 
+.content-5{
+    display: flex;
+    /*align-items: start;*/
+    height: 50vh; 
+    background: black;
+    color:white;
+    margin: 0 auto;
+    width: 97%;
+    font-family: "Poppins";
+    border-radius:.3em ;
+    justify-content: ;
+
+
+}
+.content-5__footer-area{
+display: flex;
+width: 100%;
+
+
+}
+
+.content-5__jsp-1{
+
+
+
+width: 52%;
+display: flex;
+font-size: 1em;
+margin-right: 14em;
+margin-left: 5%;
+font-size: 90%;
+margin-top: 5em;
+}
+
+.content-5__jsp-2{
+display: flex;
+width: 59%;
+}
+
+
+.content-5__jsp-2 ul{
+
+    margin-right: 1em;
+    width: 21%;
+    list-style: none;
+
+}
+.content-5__jsp-2 li{
+   font-size: 100%;
+}
+.content-5__jsp-3{
+
+    display: flex;
+    width: 100%;
+    font-size: .9em;
+    margin-top: 1em;
+
+}
+
+.content-5__jsp-1 i{
+
+    
+    font-size: 2em;
+    margin-right: .1em;
+}
+
+.dernier-para{
+  
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    font-size: .7em;
+    font-family: "Poppins";
+  
+}
