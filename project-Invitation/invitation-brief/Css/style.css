@@ -826,7 +826,7 @@ width: 59%;
 }
 .content-5__footer-area{
     flex-direction: column;
-    width: 97vw;
+    width: 98vw;
     justify-content: center;
 }
 .content-5__jsp-1{
@@ -836,22 +836,27 @@ width: 59%;
     width: 100%;
     font-size: 14px;
 }
-.content-5__jsp-3{
-      
-    margin-right: 0em;
-    width: 100%;
-    text-align: center;
-    font-size: 0px;
-}
+
 .content-5__jsp-3{
     margin-right: 0em;
     width: 100%;
     text-align: center;
     font-size: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 .content-5__jsp-3 h4{
 
     font-size: 19px;
+}
+.content-5__jsp-3 li {
+
+    display: none;
+}
+.content-5__jsp-2 ul{
+    width: 100%;
+    margin-right: 0em;
+
 }
 
 .dernier-para{
