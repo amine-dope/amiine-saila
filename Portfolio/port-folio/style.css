@@ -351,12 +351,76 @@ color: #08FDD8;
      justify-content: center;
    }
 
-   .contact{
+   #contact{
+	
+}
+.contact-title{
+	color: white;
+}
+.content{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.content h1{
+	color: #08FDD8;
+    display: flex;
+    height: 15vh;
+    font-size: xxx-large;
+    font-family: "Poppins";
+        
+ }
+ #register{
+    width: 69vw;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 80vh;
 
     
-   }
+ }
+ 
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+ 
+	
+    width: 47vw;
+    height: 4vw;
+	border: 0px;
+	border-radius: 2px;
+  font-size: 16px;
+	text-indent: 12px;
+	opacity: 0.80;
+    font-weight: 400;
+    background: #393737;
+    
+}
+.contact-btn{
+    display: flex;
+    width: 47vw;
+    justify-content: flex-end;
+}
 
-
+.submit{ 
+    width: 20%; 
+    height: 40px;
+    border-radius: 2px;
+    /* border-color: #08FDD8; */ 
+    font-size: initial;
+    font-weight: bolder;
+    background: #1d1d1d;
+    color: #08FDD8;
+    border: 2px solid #08FDD8;
+    
+}
+.submit:hover{
+	background:  #08FDD8; 
+    color: black;
+}
 
 
 @media only screen and (min-width: 1440px){
@@ -413,6 +477,7 @@ color: #08FDD8;
             width: 100vw;
             justify-content: space-around;
             align-items: center;
+           /*  font-size: 27px; */
           }
       
       
