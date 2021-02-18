@@ -515,12 +515,13 @@ footer{
       .wrapper__content{
         display: flex;
         align-items: center;
-        width: 8vw;
+        width: 20vw;
         height: 11vh;
+        justify-content: center;
           }
            .wrapper__logo{
       
-              width: 8vw;
+              width: 15vw;
               
           }
       
@@ -535,7 +536,7 @@ footer{
             width: 100vw;
             justify-content: space-around;
             align-items: center;
-           /*  font-size: 27px; */
+             font-size: 27px; 
           }
       
       
@@ -591,8 +592,144 @@ footer{
     font-size: 13px;
     justify-content: space-evenly; 
       }
-      
+      .container{
+        flex-flow: column;
+        align-items: center;
+        height: 106vh;
+      }
+      .container__grand-txt{
 
+        justify-content: center;
+        width: 80vw;
+        align-items: center;
+    
+      }
+      .container__text{
+        font-size: xxx-large;
+      }
+      .container h2{
+        font-size: 15px;
+      }
+      .container__btn{
+        height: 5vh;
+      }
+      .container__area-gif{
+        height: 57vh;
+        width: 86vw;
+      }
+      .container__gif{
+        height: 32vh;
+        justify-content: center;
+      }
+      
+      .container__gif img{
+        width: 71vw;
+      }
+
+      .container-2{
+
+      }
+      .container-2__presentation{
+        flex-flow: column;
+        height: 92vh;
+        width: 90vw;
+        align-items: center;
+      }
+      .container-2__about{
+        width: 72vw;
+        align-items: center;
+        height: 36vh;
+      }
+      .container-2__about h1{
+        font-size: 60px;
+      }
+      .container-2__about p{
+        font-size: 17px;
+      }
+      .container-2__image{
+        width: 79vw;
+        display: flex;
+        justify-content: center;
+      }
+      .container-2__image img{
+        width: 28vw;
+      }
+
+      .container-3{
+        width: 100vw;
+        height: 15vh;
+      }
+
+      .container-3__skills{
+        align-items: center;
+        justify-content: end;
+      }
+
+      .container-3__area-skills{
+        height: 10vh;
+        width: 90vw;
+      }
+      .container-3__area-skills h1{
+        font-size: 57px;
+      }
+
+      .container-3__area-txto{
+        width: 93vw;
+        display: flex;
+      }
+      .conatiner-3__area-txt{
+        width: 93vw;
+        display: flex;
+        align-items: center;
+      }
+      .conatiner-3__area-txt p{
+        font-size: 16px;
+      }
+      
+      .works__content{
+        height: 100vh;
+        justify-content: flex-end;
+      }
+      .works__title{
+        height: 9vh;
+      }
+      .works__title h1{
+        height: 10vh;
+      }
+      .works__area-work{
+        grid-template-columns: repeat(2,1fr);
+        width: 92vw;
+        height: 60vh;
+      }
+      .works__img{
+        
+      }
+      .works__img img{
+        width: 45vw;
+      }
+
+      #contact{
+        height: 90vh;
+      }
+      .contact-title{
+        height: 6vh;
+      }
+      
+      .content h1{
+          
+          align-items:flex-end;
+      }
+      .contact-content{
+        height: 51vh;
+      }
+      #register{
+          height: 57vh;
+          justify-content: space-evenly;
+      }
+      input[type="text"], input[type="email"], input[type="tel"], textarea{
+        height: 6vh;
+        width: 70vw;
+      }
 }
 
 @media only screen and (max-width: 375px){
